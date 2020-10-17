@@ -8,7 +8,7 @@ const data = {
       label: "Demo line plot",
       backgroundColor: "#008080",
       borderColor: "#7fffd4",
-      pointBorderWith: 10,
+      pointBorderWidth: 10,
       data: [4, 6, 7, 9, 11, 55, 57],
     },
   ],
