@@ -67,6 +67,29 @@ const MaterialUI: React.FC = () => {
           <Paper className={classes.paperStyle}>xs={1}</Paper>
         </Grid>
       </Grid>
+
+      <Grid container spacing={3} direction="column">
+        <Grid item xs={12} container>
+          <Grid item xs={2}>
+            Demo
+          </Grid>
+          <Grid item xs={8}></Grid>
+          <Grid item xs={2}>
+            Text
+          </Grid>
+        </Grid>
+        <Grid item xs={12} justify="space-around" container>
+          <Grid item xs={3}>
+            aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaa
+          </Grid>
+          <Grid item xs={3}>
+            bbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbb
+          </Grid>
+          <Grid item xs={3}>
+            ccccccccccccccccccccc ccccccccccccccccccccc ccccccccccccccccccccc
+          </Grid>
+        </Grid>
+      </Grid>
     </div>
   );
 };
